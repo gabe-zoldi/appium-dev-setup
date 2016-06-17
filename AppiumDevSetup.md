@@ -30,13 +30,12 @@ On your development macbook please install the following software:
 | appium   | latest                  |
 | eclipse or intellij | latest (recommend the free intellij community edition) |
 
-
-xcode:
+##### xcode
 ```
 $ xcode-select --install     # you can also install directly from the App Store
 ```
 
-brew:
+##### brew
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew doctor
@@ -44,22 +43,22 @@ $ brew update
 $ brew upgrade
 ```
 
-java:
+##### java
 ```
 $ brew install java          # or download/install from oracle site
 ```
 
-git:
+##### git
 ```
 $ brew install git
 ```
 
-appium:
+##### appium
 ```
 $ brew install Caskroom/cask/appium            # download from website install binaries
 ```
 
-java ide:\n
+##### java ide
 eclipse   (or click to <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr">download</a>)
 ```
 $ brew install Caskroom/cask/eclipse-java
