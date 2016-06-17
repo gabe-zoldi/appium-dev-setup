@@ -1,4 +1,4 @@
-# Tutorial: Testing Mobile Apps using Appium
+# Testing Mobile Apps using Appium
 
 <div id='summary' />
 ## Summary
@@ -69,7 +69,7 @@ $ brew install Caskroom/cask/intellij-java
 ```
 	
 <div id='agenda' />
-### Agenda
+### Tutorial
 1. Download source code for a Sample iOS App called UICatalog.
       * https://github.com/appium/ios-uicatalog
 2. Build the sample app using XCode.
