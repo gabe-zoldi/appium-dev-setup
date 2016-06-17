@@ -3,7 +3,7 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
     <appender name="fileAppender" class="org.apache.log4j.FileAppender">
-        <param name="File" value="rover-automation.log" />
+        <param name="File" value="mobile-automation.log" />
         <param name="Append" value="false" />
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss}] %p - %m%n" />
@@ -18,7 +18,7 @@
     </appender>
 
     <appender name="html" class="org.apache.log4j.FileAppender">
-        <param name="File" value="rover-automation.html" />
+        <param name="File" value="mobile-automation.html" />
         <param name="Append" value="false" />
         <layout class="org.apache.log4j.HTMLLayout" />
     </appender>

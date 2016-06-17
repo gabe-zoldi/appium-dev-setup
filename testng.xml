@@ -2,7 +2,12 @@
 <suite name="Appium Mobile Test Suite">
     <test verbose="2" name="iOS Tests" annotations="JDK">
         <classes>
-            <class name="com.acme.test.functional.signin.SignInPositiveTest" />
+            <class name="com.acme.qa.test.iOSTest" />
+        </classes>
+    </test>
+    <test verbose="2" name="Android Tests" annotations="JDK">
+        <classes>
+            <class name="com.acme.qa.test.androidTest" />
         </classes>
     </test>
 </suite>

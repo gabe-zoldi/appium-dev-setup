@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.acme.mobile.automation</groupId>
-    <artifactId>appium-tests</artifactId>
+    <groupId>com.acme.qa</groupId>
+    <artifactId>appium-mobile-tests</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Sample Mobile App Tests</name>
+    <name>Sample Mobile Tests</name>
     <description>Sample Appium Automation Test Framework and Tests</description>
 
     <url>http://gitlab.acme.com/quality/mobile</url>
