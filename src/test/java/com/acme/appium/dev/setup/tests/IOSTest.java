@@ -17,11 +17,22 @@ public class IOSTest {
 
     @BeforeMethod
     public void setUp() throws MalformedURLException {
+        // set app location
+        String APP_PATH = "/Users/gabe_zoldi/";
+        APP_PATH += "Library/Developer/Xcode/DerivedData/UICatalog-cmqtyoxdtmvdsabiorcgullfmaeq/";
+        APP_PATH += "Build/Products/Debug-iphonesimulator/";
+
+        // set app name
+        final String APP_NAME = "UICatalog.app";
+
+        // set capabilities
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName", "iOS");
         caps.setCapability("platformVersion", "9.3");
         caps.setCapability("deviceName", "iPhone 6");
-        caps.setCapability("app", "/Users/gabe_zoldi/Library/Developer/Xcode/DerivedData/UICatalog-cmqtyoxdtmvdsabiorcgullfmaeq/Build/Products/Debug-iphonesimulator/UICatalog.app"); //Replace this with app path in your system
+        caps.setCapability("app", APP_PATH + APP_NAME);
+
+        // create mobile app instance
         driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
     }
 
@@ -32,14 +43,15 @@ public class IOSTest {
 
     @Test
     public void testiOSApp() throws InterruptedException {
-        // menu items to click thru on UICatalog app
+        // menu items to click on UICatalog app
         String[] menuItemList = {
                 "Action Sheets",
                 "Activity Indicators",
                 "Alert Views"
         };
 
-        // iterate thru the list clicking each menu item
+        // iterate thru menu item list clicking on each menu item
+        // then click the back button tor reset to main menu
         for (String menuItem : menuItemList) {
             driver.findElement(By.xpath("//*[@name='" + menuItem + "']")).click();
             driver.findElement(By.xpath("//*[@name='Back']")).click();
