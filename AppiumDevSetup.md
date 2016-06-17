@@ -2,7 +2,7 @@
 
 <div id='summary' />
 ## Summary
-<a href="https://youtu.be/xAIgpj7rAN4">Tutorial</a> on how to setup Appium for mobile automation testing.
+<a href="https://vimeo.com/171041592">Tutorial</a> on how to setup Appium for mobile automation testing.
 
 ----
 
