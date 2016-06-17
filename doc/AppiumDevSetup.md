@@ -118,4 +118,4 @@ $ brew install Caskroom/cask/intellij-java
 2. Build the sample app using XCode.
 3. Run the sample app using Appium Server.
 4. Finally run a test using Java IDE with Selenium WebDriver to hit the sample ios mobile app UICatalog.
-	⁃  https://github.com/software-entomologist/symantec
+	⁃  https://github.com/software-entomologist/appium-dev-setup
