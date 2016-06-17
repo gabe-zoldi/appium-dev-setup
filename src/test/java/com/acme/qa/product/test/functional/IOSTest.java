@@ -1,4 +1,4 @@
-package com.symantec.qa.rover.test;
+package com.acme.qa.product.test.functional;
 
 import io.appium.java_client.ios.IOSDriver;
 
@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AppiumiOS_UICatalogTest {
+public class IOSTest {
 
     private IOSDriver driver;
 
