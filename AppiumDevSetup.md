@@ -59,11 +59,11 @@ $ brew install Caskroom/cask/appium            # download from website install b
 ```
 
 ##### java ide
-<b><u>eclipse</u></b>   (or click to <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr">download</a>)
+<b>_eclipse_</b>   (or click to <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr">download</a>)
 ```
 $ brew install Caskroom/cask/eclipse-java
 ```
-<b><u>intellij</u></b>   (or click to <a href="https://www.jetbrains.com/idea/downloads">download</a>)
+<b>_intellij_</b>   (or click to <a href="https://www.jetbrains.com/idea/downloads">download</a>)
 ```
 $ brew install Caskroom/cask/intellij-java
 ```
