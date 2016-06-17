@@ -1,3 +1,11 @@
+# Tutorial: Testing Mobile Apps using Appium
+
+<div id='summary' />
+## Summary
+Tutorial on how to setup Appium for mobile automation testing.
+
+----
+
 ##### Table of Contents
 - [Summary](#summary)
 - [Development Setup](#dev-setup)
@@ -5,11 +13,6 @@
 - [Agenda](#agenda)
 
 ----
-# Tutorial: Testing Mobile Apps using Appium
-
-<div id='summary' />
-## Summary
-Tutorial on how to setup Appium for mobile automation testing.
 
 <div id='dev-setup' />
 ### Development Setup
