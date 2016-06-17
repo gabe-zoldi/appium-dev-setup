@@ -59,7 +59,7 @@ appium:
 $ brew install Caskroom/cask/appium            # download from website install binaries
 ```
 
-java ide:
+java ide:\n
 eclipse   (or click to <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr">download</a>)
 ```
 $ brew install Caskroom/cask/eclipse-java
