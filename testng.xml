@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Mobile Test Suite">
+    <test verbose="2" name="iOS Tests" annotations="JDK">
+        <classes>
+            <class name="com.acme.test.functional.signin.SignInPositiveTest" />
+        </classes>
+    </test>
+</suite>
