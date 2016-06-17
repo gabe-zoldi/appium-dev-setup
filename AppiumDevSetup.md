@@ -10,7 +10,7 @@ Tutorial on how to setup Appium for mobile automation testing.  Click to see a <
 - [Summary](#summary)
 - [Development Setup](#dev-setup)
 - [Requirements](#requirements)
-- [Agenda](#agenda)
+- [Tutorial](#tutorial)
 
 ----
 
@@ -68,7 +68,7 @@ __intellij__   (or click to <a href="https://www.jetbrains.com/idea/downloads">d
 $ brew install Caskroom/cask/intellij-java
 ```
 	
-<div id='agenda' />
+<div id='tutorial' />
 ### Tutorial
 1. Download source code for a Sample iOS App called UICatalog.
       * https://github.com/appium/ios-uicatalog
