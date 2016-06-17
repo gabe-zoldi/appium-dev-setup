@@ -1,20 +1,20 @@
-Mobile UI Automation [![Build Status](https://jenkins.symantec.com/squish/squish.png?branch=master)](https://jenkins.symantec.com/squish)
+Mobile UI Automation [![Build Status](https://jenkins.acme.com/squish/squish.png?branch=master)](https://jenkins.acme.com/squish)
 ==========
 
-[Mobile UI Automation](http://gitlab.symantec.com/quality/Mobile/tree/master) is an end-to-end test framework for Mobile Test Automation stack.  Appium/Selenium java is used for the base test framework.  It runs tests against your 
-application running in a iOS/Android simulators, interacting with it as a user would on the phone device. 
+[Mobile UI Automation](http://gitlab.acme.com/quality/Mobile/tree/master) is an end-to-end test framework for Mobile Test Automation stack.  Appium/Selenium java is used for the base test framework.  It runs tests against your 
+mobile application running with iOS/Android simulators or the actual phone device, interacting with it as a user would on the phone. 
 
 
 Getting Started
 ---------------
 
-The Mobile documentation is located in the [Mobile/docs](http://gitlab.symantec.com/quality/Mobile/tree/master/doc) folder.
+The Mobile documentation is located in the [Mobile/docs](http://gitlab.acme.com/quality/Mobile/tree/master/doc) folder.
 
 To get set up and running quickly:
 
-- The [Mobile Github](http://gitlab.symantec.com/quality/Mobile/blob/master/README.md#GettingStarted)
-- Work through the [Tutorial](http://gitlab.symantec.com/quality/Mobile/blob/master/README.md#Tutorial)
-- Take a look at the [Table of Contents](http://gitlab.symantec.com/quality/Mobile/blob/master/README.md)
+- The [Mobile Github](http://gitlab.acme.com/quality/Mobile/blob/master/README.md#GettingStarted)
+- Work through the [Tutorial](http://gitlab.acme.com/quality/Mobile/blob/master/README.md#Tutorial)
+- Take a look at the [Table of Contents](http://gitlab.acme.com/quality/Mobile/blob/master/README.md)
 
 Once you are familiar with the tutorial, you’re ready to move on. To modify your environment, see the Setup docs. To start writing tests, see the Tests docs.
 
@@ -23,16 +23,14 @@ Getting Help
 ------------
 
 Check the
-[Mobile FAQ](http://gitlab.symantec.com/quality/Mobile/blob/master/faq.md)
+[Mobile FAQ](http://gitlab.acme.com/quality/Mobile/blob/master/faq.md)
 
 For Contributors
 ----------------
 Clone the github repository:
 
-    git clone https://symantec.github.com/quality/rover/mobile.git
-    cd rover
-    git checkout master
-    ...
+    git clone https://github.com/software-entomologist/appium-dev-setup.git
+    cd appium-dev-setup
 
 By default, the tests expect the selenium server to be running at `http://localhost:4444/wd/hub`.
 
@@ -45,7 +43,7 @@ Then run the tests with
     mvn clean test
 
 
-# Symantec Quality
+# Acme Quality
 ------------------
 ## Project: Mobile
 
@@ -53,12 +51,12 @@ Then run the tests with
 
 ### [test location]
 
-    com.symantec.qa.rover.test.*
+    com.acme.qa.test.*
 
 ### [directory structure]
 
     src/test/java
-       com/symantec/qa/rover
+       com/acme/qa
               common
                   ...
               model
@@ -79,7 +77,7 @@ Then run the tests with
 # Web Controls
 --------------
 
-     abbrev		fullname    control type
+     abbrev	fullname    control type
      ------     --------    ------------
      btn        button      Button
      txt        text        Text
@@ -115,5 +113,3 @@ Then run the tests with
     Could have  --> Requirements labeled as COULD are desirable but not necessary, and could improve user experience or customer satisfaction for little development cost. These will typically be included if time and resources permit.
 
     Won't have  --> Requirements labeled as WON'T have been agreed by stakeholders as the least-critical, lowest-payback items, or not appropriate at that time. As a result, WON'T requirements are not planned into the schedule for the delivery timebox. WON'T requirements are either dropped or reconsidered for inclusion in later timeboxes. (Note: occasionally the term Would like is substituted, to give a clearer understanding of this choice).
-
-   
