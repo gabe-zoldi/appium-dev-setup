@@ -60,12 +60,13 @@ $ brew install Caskroom/cask/appium            # download from website install b
 ```
 
 java ide:
+eclipse   ...or click to <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr">download</a>
 ```
-$ # eclipse
-$ brew install Caskroom/cask/eclipse-java      # or download directly from http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr
-
-$ # intellij
-$ brew install Caskroom/cask/intellij-java     # or download directly from https://www.jetbrains.com/idea/downloads
+$ brew install Caskroom/cask/eclipse-java
+```
+intellij   ...or click to <a href="https://www.jetbrains.com/idea/downloads">download</a>
+```
+$ brew install Caskroom/cask/intellij-java
 ```
 	
 <div id='agenda' />
